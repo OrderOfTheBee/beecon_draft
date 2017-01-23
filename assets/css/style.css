@@ -2294,7 +2294,7 @@ input[type=password].error,
 .header .buy-btn:active,
 .header .buy-btn.hovered,
 .header .buy-btn.pressed {
-  border-color: #f7cd00;
+  border-color: #deb800;
 }
 .base-clr-bg,
 .base-clr-ovl:before,
@@ -2329,7 +2329,7 @@ input[type=password].error,
 .navbar-toggle .icon-bar,
 .thumb-wrapper .overlay:before,
 .header .buy-btn {
-  background-color: #f7cd00;
+  background-color: #deb800;
 }
 .base-clr-txt,
 .highlight,
@@ -3167,13 +3167,13 @@ li {
   max-width: 100%;
   padding: 21px 25px 19px;
   font-family: "PT Sans Caption", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1;
-  letter-spacing: 0.59em;
+  letter-spacing: 0.5em;
   border: none;
   border-radius: 4px;
   overflow: hidden;
@@ -6861,6 +6861,9 @@ button[type="submit"] .loading {
 .modal-box .form-group {
   margin-bottom: 20px;
 }
+.modal-box p {
+  margin: 20px 10px;
+}
 .modal-box .close-btn {
   -webkit-transition: color 0.2s ease, background 0.2s ease;
   -moz-transition: color 0.2s ease, background 0.2s ease;
@@ -7002,6 +7005,7 @@ button[type="submit"] .loading {
 }
 .bg2 {
   background-image: url("../img/backgrounds/bg2.jpg");
+  height: 250px;
 }
 .bg3 {
   background-image: url("../img/backgrounds/bg3.jpg");
@@ -7282,4 +7286,8 @@ button[type="submit"] .loading {
 
 div.padding-vertical {
   padding: 20px 0;
+}
+
+.contacts-on-map-container .list li {
+  list-style-type: none;
 }
